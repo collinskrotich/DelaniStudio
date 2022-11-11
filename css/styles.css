@@ -1,11 +1,10 @@
 div
 {
-    text-align: center;
     font-size: 30px;
     color: white;
     padding: 10px;
-    display: flex;
     align-items: center;
+    text-align: center;
     justify-content: center;
     height: 150px;
     width:98%;
@@ -14,19 +13,23 @@ div
 {
     width:auto;
     margin: 0px;
-    height: 700px;
+    height: 400px;
     background-size: cover;
 }
 .two
 {
-    background-color: rgb(171, 45, 125);
+    color: black;
+    height: 200px;
+    font-size: 14px;
+
 }
 .three
 {
     width:auto;
     margin: 0px;
-    height: 700px;
+    height: 250px;
     background-size: cover;
+    font-size: 16px;
 }
 .four
 {
@@ -50,10 +53,11 @@ div
 }
 .logo {
     display: flex;
-    margin-left: auto;
+    margin-left: 400px;
     margin-right: auto; 
     text-align: center; 
     position: absolute; 
+    align-items: center;
 }
 p{
     text-align: center;
