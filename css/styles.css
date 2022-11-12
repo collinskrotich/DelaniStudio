@@ -1,6 +1,7 @@
 div
 {
     font-size: 30px;
+    font-family: 'Roboto', sans-serif;
     color: white;
     padding: 10px;
     align-items: center;
@@ -13,7 +14,7 @@ div
 {
     width:auto;
     margin: 0px;
-    height: 490px;
+    height: 800px;
     background-size: cover;
 }
 .two
@@ -33,47 +34,38 @@ div
 }
 .four
 {
-    color: black;  
+    color: black; 
+    width:auto;
+    margin: 0px;
+    height: 200px; 
 }
 .five
 {
-    background-color: rgb(83, 41, 188);  
+    height: 600px; 
+    color: black; 
 }
 .six
 {
     width:auto;
     margin: 0px;
-    height: 500px;
+    height: 600px;
     background-size: cover;
      
 }
 .seven
 {
-    
-}
-.eight
-{
-    
+    color: black;  
 }
 .logo {
-    display: flex;
-    margin-left: 400px;
-    margin-right: auto; 
-    text-align: center; 
-    position: absolute; 
     align-items: center;
 }
 p{
     text-align: center;
-    position: relative;
-    display: flex;
-    align-items: center;
-
 }
 #txtbox2 {
     font-size: 18pt;
-    height: 200px;
-    width : 500px;
+    height: 300px;
+    width : 700px;
     background: transparent;
     border-color: aliceblue;
     color: aliceblue;
@@ -81,10 +73,34 @@ p{
 #txtbox1 {
     font-size: 18pt;
     height: 30px;
-    width : 240px;
+    width : 400px;
     background: transparent;
     border-color: aliceblue;
     color: aliceblue;
+}
+#portfolio {
+    width: 200px;
+    height: 200px;
+  }
+
+#container {
+  text-align: justify;
+  align-items: center;
+}
+#container > div {
+  width: 270px; /* Declare your value. Can be in relative units. */
+  display: inline-block;
+  vertical-align: top;
+  height: 200px;
+
+  /* IE fix. */
+  *display: inline;
+  zoom: 1;
+}
+#container:after {
+  content: "";
+  width: 100%;
+  display: inline-block;
 }
 
 1-355696116977_VPN
