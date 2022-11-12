@@ -13,7 +13,7 @@ div
 {
     width:auto;
     margin: 0px;
-    height: 400px;
+    height: 490px;
     background-size: cover;
 }
 .two
@@ -33,7 +33,7 @@ div
 }
 .four
 {
-    background-color: rgb(188, 181, 41);  
+    color: black;  
 }
 .five
 {
@@ -43,13 +43,17 @@ div
 {
     width:auto;
     margin: 0px;
-    height: 700px;
+    height: 500px;
     background-size: cover;
      
 }
 .seven
 {
-    background-color: rgb(41, 120, 188); 
+    
+}
+.eight
+{
+    
 }
 .logo {
     display: flex;
@@ -63,7 +67,24 @@ p{
     text-align: center;
     position: relative;
     display: flex;
+    align-items: center;
 
+}
+#txtbox2 {
+    font-size: 18pt;
+    height: 200px;
+    width : 500px;
+    background: transparent;
+    border-color: aliceblue;
+    color: aliceblue;
+}
+#txtbox1 {
+    font-size: 18pt;
+    height: 30px;
+    width : 240px;
+    background: transparent;
+    border-color: aliceblue;
+    color: aliceblue;
 }
 
 1-355696116977_VPN
