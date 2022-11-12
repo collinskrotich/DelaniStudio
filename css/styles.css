@@ -41,7 +41,7 @@ div
 }
 .five
 {
-    height: 600px; 
+    height: 460px; 
     color: black; 
 }
 .six
@@ -62,14 +62,6 @@ div
 p{
     text-align: center;
 }
-#txtbox2 {
-    font-size: 18pt;
-    height: 300px;
-    width : 700px;
-    background: transparent;
-    border-color: aliceblue;
-    color: aliceblue;
-}
 #txtbox1 {
     font-size: 18pt;
     height: 30px;
@@ -78,20 +70,32 @@ p{
     border-color: aliceblue;
     color: aliceblue;
 }
+#txtbox2 {
+    font-size: 18pt;
+    height: 300px;
+    width : 700px;
+    background: transparent;
+    border-color: aliceblue;
+    color: aliceblue;
+}
+
 #portfolio {
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 150px;
   }
 
 #container {
-  text-align: justify;
+  text-align: center;
   align-items: center;
+  align-content: center;
+  width: 1000px;
+  margin-left: 300px;
 }
 #container > div {
-  width: 270px; /* Declare your value. Can be in relative units. */
+  width: 180px; /* Declare your value. Can be in relative units. */
   display: inline-block;
   vertical-align: top;
-  height: 200px;
+  height: 150px;
 
   /* IE fix. */
   *display: inline;
@@ -102,6 +106,3 @@ p{
   width: 100%;
   display: inline-block;
 }
-
-1-355696116977_VPN
-1-466329771737_VPN - sygic
