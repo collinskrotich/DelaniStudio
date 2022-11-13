@@ -1,3 +1,7 @@
+p
+{
+    text-align: center;
+}
 div
 {
     font-size: 30px;
@@ -59,9 +63,7 @@ div
 .logo {
     align-items: center;
 }
-p{
-    text-align: center;
-}
+
 #txtbox1 {
     font-size: 18pt;
     height: 30px;
