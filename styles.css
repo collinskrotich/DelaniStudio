@@ -115,6 +115,11 @@ button{
     border-color: aliceblue;
     color: aliceblue;
 }
+.iframe{
+    width: 600px;
+    height: 600px;
+
+}
 
 .portfolioimg {
     width: 180px;
