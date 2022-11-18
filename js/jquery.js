@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    // The 'What we do'  icons when clicked toggles between the respective description of each icon.
     $("[id=design]").click(function(){
         $(".description").html("<hr><h1>Design<h1/><hr><p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p><hr>");
     })
@@ -8,6 +9,10 @@ $(document).ready(function(){
     $("[id=productmgmnt]").click(function(){
         $(".description").html("<hr><h1>Product Management<h1/><hr><p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. This iterative process allows for changes as business requirements evolve.</p><hr>");
     })
+
+    // JQuery to create a Hover effect for the Portfolio sections such that on hover a white box(tooltip) 
+    // appears with then name of the project inside. The project picture is still visible in the background. 
+
     $("[id=jimcarrey").mouseover(function(){
         $("[id=jimcarrey").toolTip();
     })
@@ -32,4 +37,11 @@ $(document).ready(function(){
     $("[id=giraffe").mouseover(function(){
         $("[id=giraffe").toolTip();
     })
+
+    $("form").submit(function(event){
+        event.preventDefault();
+        var name = $("input[name='name']",this).val();
+        var email = $("input[name='email']",this).val();
+        window.alert(name + ' we have received your message. Thank you for reaching out to us!');
+      });
 });
