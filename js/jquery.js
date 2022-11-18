@@ -8,5 +8,28 @@ $(document).ready(function(){
     $("[id=productmgmnt]").click(function(){
         $(".description").html("<hr><h1>Product Management<h1/><hr><p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. This iterative process allows for changes as business requirements evolve.</p><hr>");
     })
-
+    $("[id=jimcarrey").mouseover(function(){
+        $("[id=jimcarrey").toolTip();
+    })
+    $("[id=orange").mouseover(function(){
+        $("[id=orange").toolTip();
+    })
+    $("[id=mightyontario").mouseover(function(){
+        $("[id=mightyontario").toolTip();
+    })
+    $("[id=elena").mouseover(function(){
+        $("[id=elena").toolTip();
+    })
+    $("[id=blackbox").mouseover(function(){
+        $("[id=blackbox").toolTip();
+    })
+    $("[id=agecontrol").mouseover(function(){
+        $("[id=agecontrol").toolTip();
+    })
+    $("[id=burnedC").mouseover(function(){
+        $("[id=burnedC").toolTip();
+    })
+    $("[id=giraffe").mouseover(function(){
+        $("[id=giraffe").toolTip();
+    })
 });
