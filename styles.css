@@ -14,41 +14,46 @@ div
     height: 150px;
     width:98%;
 }
-.one
+.welcome
 {
     width:auto;
     margin: 0px;
     height: 800px;
     background-size: cover;
+    background-image: url(./imgs/assets/backgrounds/h_img.jpg);
 }
-.two
+.logo {
+    align-items: center
+}
+.aboutus
 {
     color: black;
     height: 200px;
     font-size: 14px;
 
 }
-.three
+.services
 {
     width:auto;
     margin: 0px;
     height: 250px;
     background-size: cover;
     font-size: 16px;
+    background-image: url(./imgs/assets/backgrounds/s_image.jpg);
 }
-.four
+.whatwedo
 {
     color: black; 
     width:auto;
     margin: 0px;
     height: 200px; 
 }
-.five
+.portfolio
 {
     height: 460px; 
     color: black; 
 }
-.six
+.contactus
 {
     width:auto;
     margin: 0px;
@@ -57,12 +62,9 @@ div
     background-image: url(./imgs/assets/backgrounds/c_image.jpg);
      
 }
-.seven
+.social
 {
     color: black;  
-}
-.logo {
-    align-items: center;
 }
 
 #txtbox1 {

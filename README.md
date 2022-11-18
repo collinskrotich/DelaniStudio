@@ -12,7 +12,8 @@ Collins Kiprono Rotich
 
 ## Setup instructions - includes any scripts that need to be run if necessary
 1.Open file on live server/browser to run application
-2.Enter birthday date & gender as prompted.
+
+2.Interact with the platforom as you feel like to test the various features.
 
 ## Technologies Used
 HTML, CSS, Javascript, JQuery
