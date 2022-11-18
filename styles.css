@@ -2,6 +2,9 @@ p
 {
     text-align: center;
 }
+h1{
+    text-align: center;
+}
 div
 {
     font-size: 30px;
@@ -18,7 +21,7 @@ div
 {
     width:auto;
     margin: 0px;
-    height: 800px;
+    height: 620px;
     background-size: cover;
     background-image: url(./imgs/assets/backgrounds/h_img.jpg);
 }
@@ -28,7 +31,7 @@ div
 .aboutus
 {
     color: black;
-    height: 200px;
+    height: 250px;
     font-size: 14px;
 
 }
@@ -36,7 +39,7 @@ div
 {
     width:auto;
     margin: 0px;
-    height: 250px;
+    height: 350px;
     background-size: cover;
     font-size: 16px;
     background-image: url(./imgs/assets/backgrounds/s_image.jpg);
@@ -46,8 +49,26 @@ div
     color: black; 
     width:auto;
     margin: 0px;
-    height: 200px; 
+    height: 350px; 
 }
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 30px;
+  }
+figcaption{
+    color: black;
+    font-size: medium;
+}
+.description{
+    color: black;
+    font-size: 10px;
+}
+
+
 .portfolio
 {
     height: 460px; 
@@ -59,8 +80,11 @@ div
     margin: 0px;
     height: 600px;
     background-size: cover;
-    background-image: url(./imgs/assets/backgrounds/c_image.jpg);
-     
+    background-image: url(./imgs/assets/backgrounds/c_image.jpg);    
+}
+button{
+    width: 170px;
+    height: 40px;
 }
 .social
 {
@@ -88,14 +112,15 @@ div
     width: 180px;
     height: 150px;
   }
+  #container {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    width: 1000px;
+    margin-left: 300px;
+  }
 
-#container {
-  text-align: center;
-  align-items: center;
-  align-content: center;
-  width: 1000px;
-  margin-left: 300px;
-}
+
 #container > div {
   width: 180px; /* Declare your value. Can be in relative units. */
   display: inline-block;
