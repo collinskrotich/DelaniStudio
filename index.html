@@ -7,6 +7,7 @@
     <title>Delani Studio</title>
     <link href="./styles.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.js"></script>
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
     <script src="./js/jquery.js"></script>
@@ -79,9 +80,9 @@ based on your requirements, we can provide a complete offering or just the piecs
     <div class="contactus">
         <h1>CONTACT US</h1>
         <form class="form">
-            <input type="text" value="Name.." name ="name" id="txtbox1">
-            <input type="text" value="Email.." name ="email" id="txtbox1"><br><br>
-            <input type="text" value="Your message here.."name ="name" id="txtbox2"><br>
+            <input type="text" value="Name.." name ="name" id="txtbox1" required>
+            <input type="email" value="Email.." name ="email" id="txtbox2" required><br><br>
+            <input type="text" value="Your message here.."name ="message" id="txtbox3" required><br>
             <input type="submit" name="Submit" value="Submit">
         </form>
     </div>

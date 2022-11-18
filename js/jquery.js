@@ -13,35 +13,51 @@ $(document).ready(function(){
     // JQuery to create a Hover effect for the Portfolio sections such that on hover a white box(tooltip) 
     // appears with then name of the project inside. The project picture is still visible in the background. 
 
-    $("[id=jimcarrey").mouseover(function(){
-        $("[id=jimcarrey").toolTip();
+    $("[id=jimcarrey]").mouseover(function(){
+        $("[id=jimcarrey]").toolTip();
     })
-    $("[id=orange").mouseover(function(){
-        $("[id=orange").toolTip();
+    $("[id=orange]").mouseover(function(){
+        $("[id=orange]").toolTip();
     })
-    $("[id=mightyontario").mouseover(function(){
-        $("[id=mightyontario").toolTip();
+    $("[id=mightyontario]").mouseover(function(){
+        $("[id=mightyontario]").toolTip();
     })
-    $("[id=elena").mouseover(function(){
-        $("[id=elena").toolTip();
+    $("[id=elena]").mouseover(function(){
+        $("[id=elena]").toolTip();
     })
-    $("[id=blackbox").mouseover(function(){
-        $("[id=blackbox").toolTip();
+    $("[id=blackbox]").mouseover(function(){
+        $("[id=blackbox]").toolTip();
     })
-    $("[id=agecontrol").mouseover(function(){
-        $("[id=agecontrol").toolTip();
+    $("[id=agecontrol]").mouseover(function(){
+        $("[id=agecontrol]").toolTip();
     })
-    $("[id=burnedC").mouseover(function(){
-        $("[id=burnedC").toolTip();
+    $("[id=burnedC]").mouseover(function(){
+        $("[id=burnedC]").toolTip();
     })
-    $("[id=giraffe").mouseover(function(){
-        $("[id=giraffe").toolTip();
+    $("[id=giraffe]").mouseover(function(){
+        $("[id=giraffe]").toolTip();
     })
 
+    $("[id=txtbox1]").click(function(){
+        $('input[name="name"]').val("");
+    })    
+    $("[id=txtbox2]").click(function(){
+        $('input[name="email"]').val("");
+    })
+    $("[id=txtbox3]").click(function(){
+        $('input[name="message"]').val("");
+    })
+
+// Jquery Function to show a pop up that we have received the user's message and thanking them for contacting us.
+
     $("form").submit(function(event){
+
+        $("form").validate();
         event.preventDefault();
-        var name = $("input[name='name']",this).val();
-        var email = $("input[name='email']",this).val();
-        window.alert(name + ' we have received your message. Thank you for reaching out to us!');
+        var name = $("input[name='name']").val();
+        var email = $("input[name='email']").val();
+        var message = $("input[name='message']").val();
+
+        alert(name + ' we have received your message. Thank you for reaching out to us!')
       });
 });

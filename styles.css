@@ -101,6 +101,14 @@ button{
 }
 #txtbox2 {
     font-size: 18pt;
+    height: 30px;
+    width : 400px;
+    background: transparent;
+    border-color: aliceblue;
+    color: aliceblue;
+}
+#txtbox3 {
+    font-size: 18pt;
     height: 300px;
     width : 700px;
     background: transparent;
