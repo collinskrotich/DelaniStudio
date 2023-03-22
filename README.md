@@ -1,7 +1,7 @@
 # Delani Studio
 
 ## Live Link
-https://collinskrotich.github.io/Week3IP/
+https://collinskrotich.github.io/DelaniStudio/
 
 ## Project Description
 Delani studio is a website for a company showing their portfolio of design, development and product management.
